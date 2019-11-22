@@ -1,0 +1,23 @@
+
+body
+{
+background-color: #e8f3f8;
+background-image:url(bg4.jpg);
+}
+h1
+{
+	text-align:center;
+	font-size:40px;
+	color:white;
+}
+form
+{
+	margin:20px auto;
+	width:320px;
+	color:steelblue;
+}
+input
+{
+	padding:10px;
+	font-size:inherit;
+}

@@ -142,7 +142,7 @@ $rowCnt2 = $resultCnt->fetch_assoc();
 
     <?php if (isset($_SESSION['user'])) { ?>
 <?php
-$sql="SELECT * FROM products WHERE owner <> $id";
+$sql="SELECT * FROM products WHERE owner <> $id AND quant <> 0";
 $result=$db->query($sql) or die($db->error);
 ?>
 <div class="container" id="products">
